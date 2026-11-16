@@ -1,6 +1,6 @@
 # citizen-assist-energia_SERS_GS_2_2026
 
-**Integrantes:** 
+## Integrantes 
 
 Ângelo Malta Reina - rm 570769
 

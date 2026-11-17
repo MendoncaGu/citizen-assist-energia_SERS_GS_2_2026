@@ -1,0 +1,13 @@
+cenario,alternativa,kwh_mes,custo_energia_mes_rs,economia_kwh_mes,economia_liquida_mes_rs,investimento_rs,payback_meses,custo_total_horizonte_rs,co2_evitado_kg_ano
+conservador,Base: chuveiro eletrico (situacao atual),88.0,88.0,0.0,0.0,0.0,,10560.0,0.0
+conservador,A: eficiencia (banho mais curto / posicao morna),66.0,66.0,22.0,22.0,0.0,,7920.0,10.2
+conservador,B: aquecedor solar (fonte renovavel),44.0,44.0,44.0,35.67,3500.0,98.1,9780.0,20.3
+conservador,A+B: eficiencia + aquecedor solar,33.0,33.0,55.0,46.67,3500.0,75.0,8460.0,25.4
+base,Base: chuveiro eletrico (situacao atual),88.0,88.0,0.0,0.0,0.0,,10560.0,0.0
+base,A: eficiencia (banho mais curto / posicao morna),66.0,66.0,22.0,22.0,0.0,,7920.0,10.2
+base,B: aquecedor solar (fonte renovavel),26.4,26.4,61.6,53.27,3500.0,65.7,7668.0,28.5
+base,A+B: eficiencia + aquecedor solar,19.8,19.8,68.2,59.87,3500.0,58.5,6876.0,31.5
+otimista,Base: chuveiro eletrico (situacao atual),88.0,88.0,0.0,0.0,0.0,,10560.0,0.0
+otimista,A: eficiencia (banho mais curto / posicao morna),66.0,66.0,22.0,22.0,0.0,,7920.0,10.2
+otimista,B: aquecedor solar (fonte renovavel),13.2,13.2,74.8,66.47,3500.0,52.7,6084.0,34.6
+otimista,A+B: eficiencia + aquecedor solar,9.9,9.9,78.1,69.77,3500.0,50.2,5688.0,36.1

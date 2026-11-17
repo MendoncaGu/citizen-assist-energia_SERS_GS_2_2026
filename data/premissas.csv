@@ -1,0 +1,21 @@
+id,descricao,valor,unidade,tipo,fonte_ou_justificativa
+tarifa_kwh,Tarifa residencial B1 com impostos,1.00,R$/kWh,ESTIMADO,"Valor placeholder. SUBSTITUIR pela tarifa da distribuidora do grupo (conta de luz ou aneel.gov.br). Bandeiras tarifarias nao incluidas."
+fator_emissao,Fator medio de emissao do SIN (media anual 2023),0.0385,kgCO2/kWh,PUBLICO,"MCTI - 38,5 kgCO2/MWh em 2023. Atualizar para o ano mais recente no site do MCTI."
+dias_mes,Dias por mes,30,dias,CONVENCAO,Simplificacao de calculo
+pessoas,Pessoas na residencia,4,pessoas,ESTIMADO,Familia tipica usada como exemplo; o usuario pode alterar
+banho_min,Duracao media do banho,8,min/banho,ESTIMADO,1 banho por pessoa por dia; validar nos testes com usuarios
+chuveiro_w,Potencia do chuveiro eletrico,5500,W,ESTIMADO,"Faixa tipica 4500-7500 W; conferir etiqueta/manual do fabricante"
+a_reducao_tempo,Reducao do consumo ao encurtar banho (8 para 6 min) e usar posicao morna,0.25,fracao,ESTIMADO,Premissa comportamental; depende de adesao da familia
+a_investimento,Investimento da alternativa A,0,R$,ESTIMADO,Medida comportamental sem custo
+b_fracao_solar_cons,Fracao solar - cenario conservador,0.50,fracao,ESTIMADO,Inverno/dias nublados; varia com regiao e dimensionamento
+b_fracao_solar_base,Fracao solar - cenario base,0.70,fracao,ESTIMADO,Valor intermediario; validar com orcamento e fabricante
+b_fracao_solar_otim,Fracao solar - cenario otimista,0.85,fracao,ESTIMADO,Boa insolacao e sistema bem dimensionado
+b_investimento,Investimento do aquecedor solar (coletor + reservatorio + instalacao),3500,R$,ESTIMADO,"Obter ao menos 3 orcamentos locais; valor varia por regiao e porte"
+b_manutencao_ano,Manutencao anual do aquecedor solar,100,R$/ano,ESTIMADO,Limpeza e revisao periodica
+horizonte_anos,Periodo de referencia comum para comparar alternativas,10,anos,CONVENCAO,Mesmo periodo para todas as opcoes
+geladeira_w,Potencia da geladeira,150,W,ESTIMADO,Geladeira antiga; conferir etiqueta ENCE/Procel
+geladeira_horas,Horas de funcionamento por dia (geladeira),24,h/dia,ESTIMADO,Funciona o dia todo
+geladeira_fator,Fator de uso do compressor (geladeira),0.35,fracao,ESTIMADO,Compressor liga e desliga (ciclo)
+ar_w,Potencia do ar-condicionado 9000 BTU,800,W,ESTIMADO,Conferir etiqueta ENCE/Procel
+ar_horas,Horas de uso por dia (ar-condicionado),8,h/dia,ESTIMADO,Uso noturno tipico
+ar_fator,Fator de uso do compressor (ar-condicionado),0.60,fracao,ESTIMADO,Ciclo do compressor
